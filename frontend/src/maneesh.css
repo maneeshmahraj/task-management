@@ -1,0 +1,259 @@
+*
+{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+nav
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+   background-color:lime;
+   /* background: linear-gradient(lime,rgb(5, 240, 220)); */
+}
+nav .logo
+{
+    
+    font-size: 40px;
+    align-items: center;
+    margin: 0px 40px;
+    line-height: 70px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    color:rgb(44, 21, 21);
+    width: 30%;
+}
+nav ul 
+{
+   display: flex;
+   margin: 20px 0px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li{
+    margin: 0px 20px;
+    list-style-type: none;
+}
+.link
+{
+    text-decoration: none;
+    color:white;
+}
+.link:hover
+{
+    color: black;
+}
+.bar
+{
+    font-size: 40px;
+    display: flex;
+    color: white;
+    margin-right: 20px;
+   margin: auto;
+}
+#check
+{
+    display: none;
+}
+.bar2
+{
+    display: none;
+}
+@media(max-width:995px)
+{
+       nav ul 
+       {
+        font-size: 18px;
+        margin: 10px 5px;
+        flex-wrap: wrap;
+       }
+}
+@media (max-width:895px)
+{
+    .bar2{
+        display: block;
+        margin-right: 20px;
+    }
+    nav ul
+    {
+       top:65px;
+       left:0px;
+       position: absolute;
+       display: block;  
+       height: 100vh;
+       background-color: skyblue;
+       width: 100%;
+       transition: all .5s;
+    }
+    nav ul li
+    {
+        margin: 20px;
+        display: block;
+    }
+    .link:hover{
+        color: pink;
+    }
+    
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+   height: 400px;
+   align-items: center;
+   color: lime;
+}
+.popup
+{
+    height: 400px;
+    width: 400px;
+  
+    border-radius: 10px;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+.popup h1
+{
+    text-align: center;
+    margin: 10px 0px 20px;
+    font-family: Verdana, sans-serif;
+}
+.popup .form-eliment 
+{
+    width: 100%;
+}
+.popup .form-eliment  label
+{
+    font-size: 20px;
+   color: rgb(44, 44, 44);
+   align-items: flex-start;
+}
+.popup .form-eliment input
+{
+    width: 100%;
+    height: 30px;
+     margin: 10px 0px;
+    outline: none;
+    border-radius: 5px;
+    border: .8px solid gray;
+}
+.popup .form-eliment button
+{
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(53, 23, 23);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0px;
+}
+  
+.title1
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.title1 table
+{
+    width: 80%;
+}
+.title1 table tr th,td
+{
+    border-bottom: 1px solid lime;
+    text-align: center;
+    height: 40px;
+    
+}
+.btn2{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color:blue;
+    color: wheat;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+   
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color:lime;
+    color: wheat;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+   
+}
+.title1 table tr th
+{
+   padding: 10px;
+   font-size: 20px;
+   color: rgb(247, 5, 247);
+   
+}
+.popup1
+{ 
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.popup1 .form-eliment 
+{
+    width: 30%;
+}
+.popup1 .form-eliment  label
+{
+    font-size: 20px;
+   color: rgb(44, 44, 44);
+   align-items: flex-start;
+}
+.popup1 .form-eliment input
+{
+    width: 80%;
+    height: 30px;
+     margin: 10px 0px;
+    outline: none;
+    border-radius: 5px;
+    border: .8px solid gray;
+}
+.popup1 .form-eliment button
+{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: purple;
+    color: wheat;
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 0px;
+}
+.item
+{
+    font-size: 20px;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+.item li 
+{
+    margin: 0px 20px;
+    color: slateblue;
+}
+.item li b
+{
+    color: lime;
+}
